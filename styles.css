@@ -5,19 +5,19 @@ body {
 }
 
 .sidebar h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Didot", serif;
   font-size: 350%;
   color: #d3d3da;
   display: block;
   padding: 16px;
   padding-top: 0;
   margin:0;
-  font-weight: 600;
+  font-weight: 500;    
   text-align: center;
 }
 
 .sidebar h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Didot", serif;
   font-size: 150%;
   color: #d3d3da;
   display: block;
@@ -29,7 +29,7 @@ body {
 }
 
 .sidebar h3{
-  font-family: "Playfair Display", serif;
+  font-family: "Didot", serif;
   color: #d3d3da;
   display: block;
   padding: 16px;
@@ -102,7 +102,7 @@ div.content {
   margin: 0;
   padding: 0;
   width: 350px;          /* <--- CHANGE US TOGETHER */
-  background-color: #262536;
+  background-color: #145A32;
   position: fixed;
   height: 100%;
   overflow: auto;
