@@ -7,10 +7,11 @@ body {
 .sidebar h1 {
   font-family: "Didot", serif;
   font-size: 350%;
-  color: #d3d3da;
+  color: #E9F7EF;
   display: block;
   padding: 16px;
   padding-top: 0;
+    padding-bottom: 0;
   margin:0;
   font-weight: 500;    
   text-align: center;
@@ -19,7 +20,7 @@ body {
 .sidebar h2 {
   font-family: "Didot", serif;
   font-size: 150%;
-  color: #d3d3da;
+  color: #E9F7EF;
   display: block;
   padding: 16px;
   margin: 0;
@@ -30,7 +31,7 @@ body {
 
 .sidebar h3{
   font-family: "Didot", serif;
-  color: #d3d3da;
+  color: #E9F7EF;
   display: block;
   padding: 16px;
   margin: 0;
@@ -51,7 +52,7 @@ body {
 }
 
 .content p {
-  font-family: "Roboto", serif;
+  font-family: "Didot", serif;
   font-size: 130%;
   
 }
@@ -102,7 +103,7 @@ div.content {
   margin: 0;
   padding: 0;
   width: 350px;          /* <--- CHANGE US TOGETHER */
-  background-color: #145A32;
+  background-color: #0C4223;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -112,7 +113,7 @@ div.content {
 .sidebar a {
   font-family: "Playfair Display", serif;
   display: block;
-  color: #d3d3da;
+  color: #E9F7EF;
   padding: 16px;
   padding-right: 30px;
   text-decoration: none;
@@ -123,7 +124,7 @@ div.content {
 #colophon a {
   font-family: "Playfair Display", serif;
   font-size: 100%;
-  color: #d3d3da;
+  color: #E9F7EF;
   display: block;
   padding: 0px;
   padding-top: 0;
@@ -134,13 +135,13 @@ div.content {
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #4c4a6c;
-  color: #d3d3da;
+  background-color: #2C5C41;
+  color: #E9F7EF;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #393751;
+  background-color: #2C5C41;
   color: #d3d3da;
 }
 
