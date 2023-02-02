@@ -1,5 +1,5 @@
 body {
-	background-color: #f1f1f9;
+	background-color: #f7f7f7;
 	margin: 0;
   	padding: 0;
 }
@@ -51,10 +51,17 @@ body {
   font-family: "Playfair Display", serif;
 }
 
+.content h3 {
+font-family: "Didot", serif;
+    font-size: 200%;
+    text-align: center
+}
+
 .content p {
   font-family: "Didot", serif;
   font-size: 130%;
   
+column-count: 2 /* might want some stuff formatted in columns */
 }
 
 .content li {
