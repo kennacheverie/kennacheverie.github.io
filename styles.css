@@ -61,7 +61,7 @@ font-family: "Didot", serif;
   font-family: "Didot", serif;
   font-size: 130%;
   
-column-count: 2 /* might want some stuff formatted in columns */
+column-count: 1 /* might want some stuff formatted in columns */
 }
 
 .content li {
