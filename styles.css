@@ -7,7 +7,7 @@ body {
 .sidebar h1 {
   font-family: "Didot", serif;
   font-size: 350%;
-  color: #E9F7EF;
+  color: #000000;
   display: block;
   padding: 16px;
   padding-top: 0;
@@ -20,7 +20,7 @@ body {
 .sidebar h2 {
   font-family: "Didot", serif;
   font-size: 150%;
-  color: #E9F7EF;
+  color: #000000;
   display: block;
   padding: 16px;
   margin: 0;
@@ -31,7 +31,7 @@ body {
 
 .sidebar h3{
   font-family: "Didot", serif;
-  color: #E9F7EF;
+  color: #000000;
   display: block;
   padding: 16px;
   margin: 0;
@@ -45,6 +45,8 @@ body {
 
 .content h1 {
   font-family: "Playfair Display", serif;
+    
+
 }
 
 .content h2 {
@@ -110,28 +112,28 @@ div.content {
   margin: 0;
   padding: 0;
   width: 350px;          /* <--- CHANGE US TOGETHER */
-  background-color: #0C4223;
+  background-color: #F2E6FF;
   position: fixed;
   height: 100%;
-  overflow: auto;
+  overflow: auto;  
 }
 
 /* Sidebar links */
 .sidebar a {
   font-family: "Playfair Display", serif;
   display: block;
-  color: #E9F7EF;
+  color: #000000;
   padding: 16px;
   padding-right: 30px;
   text-decoration: none;
-  text-align: right;
+  text-align: center;
   font-size: 125%;
 }
 
 #colophon a {
   font-family: "Playfair Display", serif;
   font-size: 100%;
-  color: #E9F7EF;
+  color: #000000;
   display: block;
   padding: 0px;
   padding-top: 0;
@@ -142,19 +144,19 @@ div.content {
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #2C5C41;
-  color: #E9F7EF;
+  background-color: #D6CADD;
+  color: #000000;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #2C5C41;
-  color: #d3d3da;
+  background-color: #EEE6FF;
+  color: #6D6A75;
 }
 
 #colophon a:hover:not(.active) {
   background-color: 262536;
-  color: #d3d3da;
+  color: #6D6A75;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
