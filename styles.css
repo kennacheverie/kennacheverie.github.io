@@ -1,5 +1,5 @@
 body {
-	background-color: #f7f7f7;
+	background-color: #FAF9F6;
 	margin: 0;
   	padding: 0;
 }
@@ -111,9 +111,9 @@ div.content {
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 350px;          /* <--- CHANGE US TOGETHER */
-  background-color: #F2E6FF;
-  position: fixed;
+  width: 350px; /* <--- CHANGE US TOGETHER */
+ background: linear-gradient(to bottom, #C1E1C1 0%, #CCEDCC 50%, #C1E1C1 100%);
+    position: fixed
   height: 100%;
   overflow: auto;  
 }
@@ -144,19 +144,19 @@ div.content {
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #D6CADD;
+  background-color: #D7FAD7;
   color: #000000;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #EEE6FF;
-  color: #6D6A75;
+  background-color: #D7FAD7;
+  color: #5E6E5E;
 }
 
 #colophon a:hover:not(.active) {
   background-color: 262536;
-  color: #6D6A75;
+  color: #5E6E5E;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
