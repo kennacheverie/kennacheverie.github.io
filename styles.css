@@ -62,11 +62,19 @@ font-family: "Didot", serif;
 .content p {
   font-family: "Didot", serif;
   font-size: 130%;
- 
-column-count: 1 /* might want some stuff formatted in columns */
+    letter-spacing: .5px;
+    line-height: 30px;
+
 }
 
-.tab {text-indent: 40px; }
+.tab {text-indent: 40px; 
+}
+
+.drama {text-indent: 40px;
+    margin-bottom: 45px;
+}
+
+
 
 .content li {
   font-family: "Roboto", serif;
