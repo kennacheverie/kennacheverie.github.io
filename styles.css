@@ -80,7 +80,7 @@ column-count: 1 /* might want some stuff formatted in columns */
 }
 
 .content a {
-  color: #4c4a6c;
+  color: #366136;
   font-weight: 600;
   text-decoration: none;
 }
@@ -113,9 +113,9 @@ div.content {
   padding: 0;
   width: 350px; /* <--- CHANGE US TOGETHER */
  background: linear-gradient(to bottom, #C1E1C1 0%, #CCEDCC 50%, #C1E1C1 100%);
-    position: fixed
   height: 100%;
-  overflow: auto;  
+  overflow: auto;
+    float:left
 }
 
 /* Sidebar links */
