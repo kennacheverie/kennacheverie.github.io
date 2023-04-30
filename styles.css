@@ -50,7 +50,10 @@ body {
 }
 
 .content h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Didot", serif;
+    font-size: 300%;
+    text-align: center;
+    background-color:
 }
 
 .content h3 {
@@ -73,7 +76,6 @@ font-family: "Didot", serif;
 .drama {text-indent: 40px;
     margin-bottom: 45px;
 }
-
 
 
 .content li {
@@ -123,8 +125,7 @@ div.content {
   margin: 0;
   padding: 0;
   width: 325px; /* <--- CHANGE US TOGETHER */
- background: linear-gradient(to bottom, #C1E1C1 0%, #CCEDCC 50%, #C1E1C1 100%);
-  height: 100%;
+ background-color: #5E8C5D;
   overflow: auto;
     float:left
 }
@@ -155,19 +156,19 @@ div.content {
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #D7FAD7;
+  background-color: #325935;
   color: #000000;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #D7FAD7;
-  color: #5E6E5E;
+  background-color: #7FBF7E;
+  color: #132623;
 }
 
 #colophon a:hover:not(.active) {
-  background-color: 262536;
-  color: #5E6E5E;
+  background-color: #214029;
+  color: #132623;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
