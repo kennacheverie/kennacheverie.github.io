@@ -116,7 +116,7 @@ div.content {
   padding-top: 50px;
   padding-left: 90px;
   padding-right: 90px;
-    padding-bottom: 90px
+    padding-bottom: 90px;
   height: 1000px;
 }
 
@@ -127,7 +127,9 @@ div.content {
   width: 325px; /* <--- CHANGE US TOGETHER */
  background-color: #5E8C5D;
   overflow: auto;
-    float:left
+    float:left;
+    height: 100%;
+    position: fixed;
 }
 
 /* Sidebar links */
@@ -158,6 +160,7 @@ div.content {
 .sidebar a.active {
   background-color: #325935;
   color: #000000;
+    text-shadow: 1px 1px 1px #737373;
 }
 
 /* Links on mouse-over */
