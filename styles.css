@@ -53,7 +53,8 @@ body {
   font-family: "Didot", serif;
     font-size: 300%;
     text-align: center;
-    background-color:
+    
+    
 }
 
 .content h3 {
@@ -107,6 +108,21 @@ font-family: "Didot", serif;
   padding-left: 0px;
 }
 
+figure {
+    padding: 4px;
+    margin: auto;
+  
+        
+}
+
+figcaption {
+  color: black;
+    font-family: "Didot", serif;
+  font-style: italic;
+    font-size: 120%;
+  padding: 5px;
+  text-align: auto;
+}
 
 /* LAYOUT STUFF */
 
